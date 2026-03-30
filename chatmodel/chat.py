@@ -58,7 +58,7 @@ while val:
         time.sleep(0.1)   # 🔥 give time to stop
         t.join()
 
-        # Clear line properly
+        # Clear line properly 
         sys.stdout.write("\r" + " " * 50 + "\r")
         sys.stdout.flush()
 

@@ -61,7 +61,7 @@ while val:
         # Clear line properly 
         sys.stdout.write("\r" + " " * 50 + "\r")
         sys.stdout.flush()
-
+ 
         content = response1.content
 
         # Cleaning

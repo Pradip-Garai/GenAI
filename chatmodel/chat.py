@@ -39,7 +39,7 @@ def thinking():
         time.sleep(0.5)
         i += 1
 
-print("\nMistral AI: ")
+print("\nOpenRouter: ")
 while val:
     query = input("\nAsk Anything : ")
     print()
@@ -51,7 +51,7 @@ while val:
         t.start()
 
         # API call
-        response1 = model3.invoke(query)
+        response1 = model4.invoke(query)
 
         # Stop animation FIRST
         stop_loading = True

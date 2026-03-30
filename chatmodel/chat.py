@@ -1,9 +1,11 @@
 from dotenv import load_dotenv
 load_dotenv()
+
 import re
 import time
 import sys
 import threading
+import os
 
 from langchain.chat_models import init_chat_model
 
